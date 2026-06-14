@@ -1,0 +1,177 @@
+Amazon SDE Intern Summer 2026 Timeline — Applied in October, Offer in April
+Company Question
+
+Posting this because when I was recruiting, I remember reading other people’s Amazon timelines on here and it genuinely gave me hope. Hopefully this helps someone else who is still waiting/recruiting.
+
+For context, I applied to around 680 internship applications this cycle before getting my Summer 2026 internship offer. The Amazon application was actually one of my earlier ones — I applied sometime in October 2025, probably when I was only around ~150 applications in. Funny how life works.
+
+Timeline:
+
+    Applied: sometime in October 2025
+
+    OA received: March 2, 2026
+
+    OA completed: March 3, 2026
+
+    Interview invite: March 24, 2026
+
+    Final interviews: April 9, 2026
+
+    Offer extended: Wednesday, April 15, 2026 at 4:58 AM
+
+For the OA, a lot of other students at my school also seemed to get it around the same time, so my guess is Amazon was batching applications by school or some other grouping.
+
+The interview process was 2 back-to-back 1-hour interviews with a short 5-minute break in between.
+
+Interview breakdown:
+
+    A lot of resume grilling, honestly much more than other companies I interviewed with
+
+    3 LeetCode-style technical questions total
+
+    2 mediums, 1 easy
+
+    All 3 were tagged for Amazon on LeetCode
+
+    2 of the 3 were in the past 30 days top Amazon-tagged problems
+
+I got the offer 5 business days after the interview, which I believe was the latest possible day of their standard 5-business day response window.
+
+One thing I wanted to mention because it caused me a lot of stress: throughout the interview process, my Amazon jobs portal showed “No Longer Under Consideration” for the original SDE Intern Summer 2026 posting. There was also no new visible job posting created for me in the portal.
+
+Shortly after my interview, I checked the Amazon jobs portal, saw “No Longer Under Consideration,” and was sad for a night because I thought that meant I was rejected. I reached out to my recruiter to confirm, and she told me that after candidates pass the OA, Amazon moves the application from the original external job requisition to a new/internal requisition, showing "No Longer Under Consideration" in the portal. No new job posting for this "internal requisition" was shown in my own jobs portal. She confirmed that my interview results were still under review and that no final decision had been reached yet.
+
+So this is not speculation — this came directly from my Amazon recruiter. In my case, “No Longer Under Consideration” on the original external posting did not mean I was rejected.
+
+Main takeaway: do not count yourself out just because a company goes silent for months, or because the portal looks weird. I applied in October and did not get the OA until March. The portal showed “No Longer Under Consideration” after my interview, and I still ended up getting the offer.
+
+Recruiting this year was brutal, and I know how demoralizing it feels to send out hundreds of applications and hear nothing back. But sometimes the application sitting in some pile from months ago is the one that ends up working out.
+
+Good luck to everyone still recruiting. Keep going.
+24
+u/AmericanExpress avatar AmericanExpress
+•
+Promoted
+JSYK: Your Amex Platinum Card® unlocks a world of benefits.​
+Learn More
+americanexpress.com
+Thumbnail image: JSYK: Your Amex Platinum Card® unlocks a world of benefits.​
+Sort by:
+Comments Section
+u/South-Virus2752 avatar
+South-Virus2752
+•
+2mo ago
+
+Hey congrats on receiving on your offer! I recently am going through the Amazon interview process. I sent them my availability and haven’t received confirmation as to when my interview will be (it’s been 5 days). I was wondering how long it took for them to confirm your interview date after they asked for your availability. Thanks!
+2
+Dazzling_Click8620
+OP •
+1mo ago
+
+Hi, sorry for responding so late, you've probably already heard back from them now.
+
+They reached out to me on March 24th, I first responded and provided availability on March 25th, and they confirmed my interview date on April 2nd.
+1
+u/South-Virus2752 avatar
+South-Virus2752
+•
+1mo ago
+
+I actually have not heard back lol. I did follow up but apparently the interviewer still has yet to confirm 😭
+1
+u/DanielHe09 avatar
+DanielHe09
+•
+2mo ago
+
+Don't amazon summer apps go out july-august? or did they change it
+2
+Dazzling_Click8620
+OP •
+1mo ago
+
+I'm not sure when the applications first got released, but I definitely wasn't an "early applicant" if that's what you're asking
+1
+Ancient-Purpose99
+•
+2mo ago
+
+Seems like people who got oas later seemed to have far better chances at interviews. At my school most people got the oa around november (plenty of strong candidates straight up got rejected ) and barely any got interviews.
+6
+u/South-Virus2752 avatar
+South-Virus2752
+•
+2mo ago
+
+My OA experience seems to be a lot different from my friend who did the OA back in December. Mine was pretty easy I’d say but he said his was hard (this guy now has a quant offer,so take that as u will)
+1
+Ancient-Purpose99
+•
+2mo ago
+
+Mine was also very easy (outlier). Questions weren't even coding questions (though I guess you could solve them with dsa), they were more like amc 8 level semi-math questions. Perfect scored it in like 10 minutes and spent the rest of the time writing comments.
+1
+u/NIQ avatar u/NIQ
+•
+Promoted
+$NIQ measures how the world's consumers buy. Enterprise AI can be informed by that intelligence.
+u/gorkdroid avatar
+gorkdroid
+•
+2mo ago
+Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter
+
+Hey, do you know when your start date is?
+1
+Dazzling_Click8620
+OP •
+1mo ago
+
+June 15th
+1
+u/parse1919 avatar
+parse1919
+•
+2mo ago
+
+No leadership principles?
+1
+Dazzling_Click8620
+OP •
+1mo ago
+
+They never asked me any questions about the leadership principles explicitly. I think it's implied that going into the interview you have a general idea of the leadership principles, and when they ask you a behavioral question you should figure out how to tie your response back to those principles.
+1
+u/Chance-Agent3072 avatar
+Chance-Agent3072
+•
+2mo ago
+
+Did you have any LLD/OOD questions? This threw me off so much they literally told me to only expect DSA on the interviews
+1
+Dazzling_Click8620
+OP •
+1mo ago
+
+Ahh yeah I heard from some people that they had those LLD/OOD type of questions too. I only had DSA (like I said, they were all straight from LeetCode and you can search up the problems yourself), but yeah I was really fortunate that my interviewer didn't throw me a curve ball
+1
+u/EmbarrassedJump1156 avatar
+EmbarrassedJump1156
+•
+2mo ago
+
+hey congrats on your offer, could you please share the recruiters name ?
+1
+Dazzling_Click8620
+OP •
+1mo ago
+
+Hey thanks man. Unfortunately I don't think I should share their name just to respect their privacy, but if you would like any other specific insights/tips as to the amazon SDE intern recruiting process I'm more than happy to help
+1
+u/Actual-Animal-5325 avatar
+Actual-Animal-5325
+•
+1mo ago
+
+was the person who sent the offer letter same as the person who scheduled the final interview, I gave my interview 4 business days ago so i was just wondering if it is worth it to reach out to the person who scheduled the interview. Also what is your end date

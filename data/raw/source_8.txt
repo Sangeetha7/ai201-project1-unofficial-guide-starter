@@ -1,0 +1,291 @@
+
+Go to cybersecurity
+r/cybersecurity
+•
+3y ago
+lazyguy_69
+Junior Cyber Security Analyst interview
+Career Questions & Discussion
+
+I have a couple of years of experience in IT Support. Currently, I am studying through Tryhackme and in the middle of SOC level 1.
+
+I applied for the Junior Cyber Security Analyst role and the company organized the remote interview. I am a bit nervous about the interview. What kind of questions should I expect? What are the things that I need to prepare for? Thanks
+
+
+rob history meeting childlike spotted steep fuzzy knee sable detail
+
+This post was mass deleted and anonymized with Redact
+15
+lazyguy_69
+OP •
+3y ago
+
+I was hoping for this question but didn’t get asked 😄😄
+2
+smc0881
+•
+3y ago
+
+Central Intelligence Agency duhhhhh.
+8
+[deleted]
+•
+3y ago
+
+Don't get too caught up with technical aspects or question prep. Most hiring managers for these types of roles are hiring for communication skills, curiosity, coachability, and problem solving skills -- focus on projecting these things. Just be confident in what you do know, honest about what you don't, and you will do great.
+12
+lazyguy_69
+OP •
+3y ago
+
+Yes most of the questions were problem solving
+3
+_cacho6L
+•
+3y ago
+
+Lets defend has a github page with common Cybersecurity interview questions. Also its a nice refresher https://github.com/LetsDefend/SOC-Interview-Questions
+163
+
+
+Prepare for behavioral, technical, and "knock out" questions. I like to reference "Knock 'em Dead" for behavioral questions. The recruiter wants to measure your personality.
+
+Prepare for very basic knock out technical questions: what is hashing? What is encryption? How are they different? I recently spoke with a program director at a large software vendor; he said, "You would be surprised how many come out of a four year university program and cannot explain hashing, encryption, and how they differ."
+
+That said, don't sweat too much. There are over 400,000 open positions in cyber security in the US right now. The demand is extreme. Companies will eventually learn that they need to meet new talent halfway so long as they have the fire and are curious.
+
+Just pass the knock outs and you will be fine. This is a not a PhD defense. Keep grinding, and good luck!
+2
+ongratulations on getting an interview OP, I'm sure you'll pass the interview no problem.
+9
+spry_tommy_gun
+•
+3y ago
+
+If you want to share the position description and your resume, I would be happy to perform a mock interview with you. It is my opinion that this is the best way to speak to your positive points and minimize the areas where you might be lacking. Good on you for digging in ahead of this!
+5
+lazyguy_69
+OP •
+3y ago
+
+Thank you for your response. I already had my interview and got rejected as well 😅😅
+4
+Shobart
+•
+3y ago
+
+Good luck to you.
+
+I've interviewed a number of people but more of an engineering role.
+
+I always ask what's inside their resume. If they're in a Security role, I assume they know the difference between TCP and UDP. but sadly, some of them can't answer this question..
+
+
+So what job website did you find the position and apply for the role?
+2
+Prestigious-Ad-6291
+•
+3y ago
+
+Brother Im on the same boat have my interview tomorrow wish you the best of luck and thank you everyone for commenting!! Helps a lot.
+2
+OtheDreamer
+•
+3y ago
+Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter
+
+A few example questions that you could brainstorm how you'd respond:
+
+    What motivated you to pursue a career in cybersecurity, and what steps have you taken to develop your skills in this field?
+
+    How would you approach assessing and mitigating the risks associated with a new software or system implementation?
+
+    Describe a time when you encountered a security incident or breach. How did you respond to it, and what lessons did you learn from that experience? If none, how would you respond to a hypothetical breach & what lessons could you potentially glean?
+
+    Explain the concept of defense in depth and how it applies to cybersecurity.
+
+    Explain the concept of zero trust.
+
+    How do you approach communicating complex technical security concepts to non-technical stakeholders?
+
+    Describe a time when you had to work collaboratively with other teams or departments to implement security measures. How did you ensure effective communication and coordination?
+
+    What methods or tools do you use to stay updated with the latest cybersecurity threats and trends?
+
+Most people prepare for really technical questions, which is good, but as someone else mentioned here--soft skills are very important. You don't have to have perfect answers to technical questions, so if something comes up that has you stumped--talk about what your process would be to research the issue and learn. Knowing how to find the right answers when you don't know them can be just as important as knowing it off the top of your head.
+
+
+I had a jr interview a few weeks back. I drilled all the SOC interview questions I found on Google and found it helped ease my mind, even though they only asked two questions out of all of the ones I drilled. They mainly asked how I keep up to date, what do I do if I can’t find an answer, port#s(make sure you know the secure port too) what is and how to mitigate XSS, what are the privileged AD account types, and some others I don’t remember on top of scenario questions. One was what do if someone logs into their account with an IP out of Russia.
+
+It’s a JR position, they won’t expect you to know everything. They just want someone with passion who is hungry for more. Keep doing the tryhackme courses soc level 1 is going to be fantastic to finish. Speak of what you do in your free time to learn more, that’s the most important since this field is constantly changing.
+37
+GKSK91
+•
+3y ago
+
+Besides technical questions, I would recommend you to get ready for soft skill questions
+22
+tealchameleon
+•
+3y ago
+
+While it's important to be able to answer the questions they ask, it's also important to have a few of your own.
+
+You're going to be analyzing SOMETHING, so a question on the types of analysis might be useful (e.g. if you're analyzing cyber security risks, ask if they use quantitative or qualitative methodologies).
+
+Ask about some frameworks - find the industry the company is in and find a few frameworks that apply (start with NIST and MITRE and find the specific frameworks that apply). Read a little into them and then ask a question about what frameworks they align to.
+
+Look into the CISSP certification. You're not qualified for it (you need 5+ years of experience in at least 3(?) of the 8 domains) but look at the key domains, identify the domain you're going to be working in, and ask questions specific to it. If the listing is vague (i.e. possibly small company where you'll have a lot of hats), ask broader questions to identify what you'll be working on.
+
+Don't be afraid to turn the interview into a conversation- it doesn't have to be one person (or a panel) drilling you with questions. You have to remember you're also interviewing them to determine whether or not you want to work with them.
+7
+[deleted]
+•
+3y ago
+
+As a Tier 1 Analyst, Know how an EDR works & understand a SIEM query language like Kusto/Splunk/Lucene. Most things that come in will be generic and your job most likely is to triage and discern true positive/false positive/benign positive.
+5
+[deleted]
+•
+3y ago
+
+THM has a good blog about how to prepare. check it out.
+4
+CyberSpecOps
+•
+3y ago
+
+So I read a lot about responses concerning technical questions. I have always advised mentees (since I use to ask them) be prepared for an open ended question. The answer is not even what we would be looking for but rather we want to see you work through a problem. If you have problem solving skills we can work with that.
+
+Here is an example: How do you start to write a program?
+
+    I start with #include studio.h
+
+    what language would you want?
+
+    I open up (some editor)
+
+    what does the program have to do?
+ As you can see all answers are valid and all answers show you are thinking through something which will guide the follow up questions. Just don't say "I don't know". Even if you have no clue, say "I'm unsure about 'x' but if you mean y then here is an answer". This shows you know something and is trying to relate to something you know. Again it's about trying to problem solve and not about getting a right answer. If you just say "I don't know" I cannot follow up with a question because the line of questioning ends.
+
+For example "Do you know Aws?" A: "Well I only worked with azure but the principals do not change. I will just need some time adjusting to the aws terminology." F: Well if you get hired we will need you to get certified withing 8 months...
+
+As you can see how to respond to even question you don't know, you can pull more information or follow on questions to show you know something. Good luck on your interview.
+4
+u/Hungry-Pilot-70068 avatar
+Hungry-Pilot-70068
+•
+3y ago
+
+I interviewed from a different perspective.
+
+First and foremost, I made hr remove names and addresses from all resumes. Once I decided on who to interview, I conducted interviews differently.
+
+Technical was great, but I wanted people that understood our enemy.
+
+I asked if they played chess. I asked to explain the motivations of various hackers, hacktivists, theives and nation states.
+
+I asked them to explain an anomaly. What was strange and why was it.
+
+Depending on what I hired them to do, I wanted to know their mindset. They had to understand that we are at war and anyone not fighting and defending is suspect.
+
+I looked for how they answered questions. Anyone can find technical answers on line, but could they give contextual answers? So I would throw out scenarios and see their thought process. Obviously they didn't know our tech stack and may have given wrong answers (especially Jr folks, they haven't had a chance to learn yet), but I wanted to see how strategic they thought.
+
+And are they good with being corrected? Inversely...are they ok with correcting me? I needed folks that knew they needed to learn more, but were confident enough to correct their boss when I was wrong.
+
+Long and rambling answer, I know. It wasnt as arduous as it sounds and im not as much as a jerk as it seems. But...make sure you understand where things fit and who your adversaries are.
+
+You'll be fine and welcome aboard! 
+
+Lucky you! I have masters and experience and can’t get an Interview
+1
+lazyguy_69
+OP •
+3y ago
+
+Thanks man. Keep applying you will get it. My suggestion would be try to connect people on Linkedin and send a message that you’re looking for role. Also, go to infosec events, conference, sectalks. You’ll meet amazing people out there
+2
+u/Agile-Jacket-4937 avatar
+Agile-Jacket-4937
+•
+3y ago
+
+Hello everyone, l have an interview scheduled with skyepoint Decisions company for a Cyber incident analyst position. Please, anything that could be shared with help. Thanks.
+1
+adonix44
+•
+3y ago
+
+https://tryhackme.com/r/resources/blog/soc-analyst-interview-guide
+3
+u/nocaig avatar
+nocaig
+•
+3y ago
+
+COMPTIA SEC+ is a wonderful way to get your foot in the door for any junior cyber position
+
+Teachs you the fundamentals of almost all core/common cyber practices
+3
+u/Gyuopler avatar
+Gyuopler
+•
+3y ago
+• Edited 3y ago
+
+When I was interviewed for a cyber security analyst role, SOC, they asked questions about difference between udp/tcp, what vpn is and different vpn modes.
+
+In my opinion the most important thing as an security analyst is how you approach something you don’t know. You will constantly be challenged as a security analyst with stuff that you don’t know and you might need to explain how you approach such problems.
+
+Good luck!
+3
+u/Agile-Jacket-4937 avatar
+Agile-Jacket-4937
+•
+3y ago
+
+Thank you very much
+
+
+Thank you for asking this. I'm also a couple years into IT and about to take a Junior Sys Admin job and am planning (hoping) to make Analyst my next move, but it was insightful to read through the replies you've gotten. Good luck with your interview!
+2
+u/Agile-Jacket-4937 avatar
+Agile-Jacket-4937
+•
+3y ago
+
+Hi everyone,Please l have an interview with Trapp Technology for cybersecurity positions. Please, someone could know some questions that they might ask. Thank you.
+2
+webdeveloper31
+•
+3y ago
+
+Go for networking main topics,and get ready for scenerio based questions
+2
+u/Agile-Jacket-4937 avatar
+Agile-Jacket-4937
+•
+3y ago
+
+Thank you very much
+1
+u/Agile-Jacket-4937 avatar
+Agile-Jacket-4937
+•
+3y ago
+
+Please like what??
+1
+Cyberkitty08
+•
+3y ago
+
+What company ?
+1
+u/Agile-Jacket-4937 avatar
+Agile-Jacket-4937
+•
+3y ago
+
+Hello everyone, l have an interview with wiseTech company for a security analyst position. Please, anything will help me, or if someone has been interviewing by them, could you kindly share some questions, please Thank you, guys.
+1

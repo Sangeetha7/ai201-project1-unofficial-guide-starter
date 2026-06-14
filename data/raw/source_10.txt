@@ -1,0 +1,110 @@
+
+Go to cybersecurity
+r/cybersecurity
+•
+3y ago
+Medanic
+What are some "open-ended, scenario-based" interview questions for an entry level position?
+Career Questions & Discussion
+
+I had an interview today (entry level soc analyst) and it went pretty well. Afterwards, HR stated I'll move on to a second, more technical interview with a soc team lead. She stated these questions will be "open-ended, scenario-based questions."
+
+I would like to do some studying/practice for this, but I'm having trouble finding some good resources, and I'd love some direction! This first interview had basic networking and security questions (common ports, CIA triad, OSI model, etc). For now, I'm studying TryHackMe's "soc level 1" learning path to get some more knowledge.
+
+I'd love any advice you may have: I'm trying to walk the line between doing some real, hands on studying (not just googling interview questions) and, well, just looking up interview questions. Lol. Thank you!
+
+
+I don't know what role the entry level position is... But here is some thoughts to help you start brainstorming ideas.
+
+You have discovered an program that is doing unusual things. How do you triage it?
+
+You read an recent article about a cyber attack and it mentioned a product you have seen/heard of in use on the network you looking at. What would you do?
+
+You notice a gap in logging collection, how to you resolve this issue?
+
+I hope these might stir the thought process some. No clue how close these would even be to what you will be asked... But could be a good exercise to try them out.
+
+Best of luck, be you and if you don't know... It's not the end of the world. How you handle the situation of not knowing something is just as important as giving most perfect answer.
+12
+u/Medanic avatar
+Medanic
+OP •
+3y ago
+
+Awesome, it definitely helps to get my head thinking! This is exactly it. I just want some exposure to some more open-ended independent thought and scenarios, as opposed to just reading more, taking more notes/watching more videos. I think I fell into a rut with my study style, and need to work on thinking more independently.
+2
+Kesshh
+•
+3y ago
+
+Don’t use what other people tell you. Good hiring manager can smell whether you knew and lived some things or whether you are just quoting someone else or Google and didn’t really understand it. If you know only a little, tell them that. If you don’t know, tell them that. There’s no cramming for interviews. Be honest be truthful. You already know what you already know. 
+
+I agree completely - I've been on hiring boards (in a different career field) and I have no desire to regurgitate answers from google, but I just want to be proactive and keep learning; albeit in a way that could help in this situation, haha. I appreciate the input!
+
+I definitely needed to hear/remember that "there is no cramming for interviews." I think I'll keep studying and be at peace with what I know. Thank you!
+4
+AmIAdminOrAmIDancer
+•
+3y ago
+
+This is it - humility is more valuable than hubris. Say when you don’t know but also how you’d find out.
+4
+u/braveginger1 avatar
+braveginger1
+•
+3y ago
+
+I’ve hired a lot of SOC analysts, mostly entry level roles like you’re describing, and the main thing I’m looking for is always a willingness to learn. These scenario based questions are great at understanding the depth of someone’s current knowledge but I also appreciate when candidates hit a wall, acknowledge the wall, and express a sincere willingness to learn more. I realize this doesn’t directly answer question, but I wanted to mention this anyways as I hope it reassures you.
+6
+u/Medanic avatar
+Medanic
+OP •
+3y ago
+
+I appreciate it! I like to think I'm very willing to learn, I've been seriously enjoying everything I've learned so far. I think I have the soft skills/tact and the eagerness, just a bit worried that it won't be enough, because my brain is a bit new to thinking in these ways.
+
+I just want to prove that I'm worth it, by showing I'm putting in work myself. It's easy for me to go down a rabbit hole on a topic for a few hours, and not get the "stimulation" that an open-ended question might provide. I think I need to work on that.
+
+
+You have a degree, which is significant. Sec+ is a great cert to have but I mainly look for experience (even just general help desk experience) or things like HackTheBox that show you spend personal time trying to become a better security professional.
+4
+
+
+honestly, if you get through TryHackMe's SOC1 pathway, and actually understand the concepts, you'll smash the interview.
+6
+u/Medanic avatar
+Medanic
+OP •
+3y ago
+
+You think so? That's pretty motivating. I'm not sure if I'll be completely done by then, but I've been making some good progress on it. Here's hoping it's enough!
+2
+u/taskforceangle avatar
+taskforceangle
+•
+3y ago
+• Edited 3y ago
+
+Best practice for tech interviewers is to use one of the things the candidate tells you they did and dig into it. Red flag if they are highlighting an achievement or skill and when you dig into it there's nothing of substance there. You say you're a network security guru but are not even somewhat familiar with common ports/protocols or RFC 1918 IP space?
+
+Some open ended scenario prompts I have used to explore the candidate's skills and mindsets:
+
+    a vulnerability scanner discovers a cross site scripting vulnerability associated with a dependency of a wordpress server that is scheduled to deploy in production in the next 48 hours. What would you need to know to assess severity/risk level of this finding and what actions would you take?
+
+    suppose we used a vendor to archive data in cold storage. every year we send them an archive of the data we're required by law to retain for 7 years. This vendor contacts us to report that a breach has occurred and our data may have been accessed but they aren't sure yet. What would you need to know to make an assessment of whether our data was accessed? What would you need to know to assess what the damage to our organization might be?
+
+The only real way to fail these scenario questions is to make assumptions without clarifying presuppositions which demonstrates your grasp on security concepts. The interviewer can inject new information to steer the conversation to explore where the candidate claims to have experience. If the candidate is very experienced, the interviewer can introduce ambiguity into the scenario and evaluate how the candidate makes decisions with imperfect information.
+
+
+When I perform interviews I specifically include questions I don't expect people to know the answer to. It's perfectly normal not to know everything, and it's an important skill to be able to communicate when you don't.
+
+It's also important to be familiar enough with industry topics to be able to form a plan on how you would gain the information.
+
+"I don't know but I would probably look up guidance based on the SANS incident response framework. If I had to guess without looking, I'd probably do XYZ" is excellent for example
+2
+[deleted]
+•
+3y ago
+
+A user has sent in an email asking if it is legit, what would you do? (yes we know every team varies in the approach, using their own tools and processes, just wing it)
+2

@@ -1,0 +1,197 @@
+
+Go to cybersecurity
+r/cybersecurity
+•
+3mo ago
+[deleted]
+What were some of the best interview questions you were asked in an interview?
+Business Security Questions & Discussion
+
+Any role (analyst, engineer, architect), a question you thought was really smart, or one that stumped you during an interview.
+Is there anything I didn’t ask you that would have liked to discuss’
+
+Gave me an opportunity to talk about a project I couldn’t shoe horn into one of their HR generated questions.
+50
+u/jethrogillgren7 avatar
+jethrogillgren7
+•
+3mo ago
+
+Yeah I always ask this one near the end! I normally say "What question about your CV did you wish I'd asked" and we often end up discussing an interesting piece of work, something that the candidate did well on.
+9
+Thedudeabide80
+•
+3mo ago
+
+For engineers or analysts I like to ask for their favorite tool to work with and one they would never use again. If you have even a little experience in this industry I like to hear perspectives.
+27
+u/SecTechPlus avatar
+SecTechPlus
+•
+3mo ago
+
+It's an old one, but I really liked "You turn your computer on, open a browser, and type in www.google.com What is the first packet out the network interface?" and then proceeded to ask additional questions for later packets, what if the information is too big for a packet, etc etc It let me go as deep as I could with my answers to really show what I knew.
+
+A more recent one was "Is all traffic on port 443 secure?" which is great if the interview gives you time to clarify and answer all different aspects of that question.
+35
+nay003
+•
+3mo ago
+
+I'd like to know the answer of that if you can please
+18
+waltur_d
+•
+3mo ago
+
+Needs to get off the local network so the first packet is a data packet (arp ) for the local gateways MAC address. Then a SYN packet on 443. Then an ACK packet.
+
+Not all traffic in 443 is secure, depends on who signed the certificate. It could be a self signed cert for someone performing a man in the middle attack .
+24
+Got2InfoSec4MoneyLOL
+•
+3mo ago
+
+Any traffic is secure if the underlying protocol is secure. 443 is just the default destination port for https. In theory you can send whatever the hell you want there.
+16
+u/Levis_Official avatar u/Levis_Official
+•
+Promoted
+
+
+I'm usually the one asking the questions and I'm usually the last interview (the non-technical one) so these are some of my favorites:
+
+"Let's say you get the job, you've picked your platform, and your new fancy laptop is sitting there with all of the requisite business stuff on it you need. What are the first 3-5 things you're installing to make it better for you to work?"
+
+"Without trying to feign humility was there something I didn't ask that you wish you had so you could talk about something you did you are proud of?"
+
+"What is your favorite security framework?"
+
+"Tell me about a time that the business or the team decided to go a different direction than the approach you suggested. How did you get on board? Were they right or were you?"
+
+"Without violating any NDAs tell me about a time you majorly broke something"
+
+"Do you have a favorite DLP tool?"
+
+"Other than AI stuff what is a technology or project you're excited about right now?"
+
+"How do you stay current on trends in the industry?"
+
+"How do you like to learn? You more of a 'get a book and read it', 'watch some videos and try it', 'just install it and figure it out in a test environment' type person?"
+
+"What does your personal lab or network look like?"
+
+"Let's say you've established good relationships with just about everybody and I come to you asking for something but your boss has also given you priorities to work on. How do you generally navigate that jumping of the queue?"
+11
+osamabinwankn
+•
+3mo ago
+
+These are great. It’s amazing how telling a simple question about keeping up with industry trends can tell so much about someone’s level of passion vs “this is my job”. Not saying either is right or wrong depending on the role.
+
+I used to over index on passion. I hired people who were deeply passionate and amazing humans, but they lacked the ability to execute or deliver. I now attempt to gauge working with autonomy, handling ambiguity, and “how did you know when that thing was delivered or done?”
+3
+F4ilm4n
+•
+3mo ago
+• Edited 3mo ago
+
+It was an old question when I was more on the networking side : "I have a brand new PC, I open a brower and type www.anywebsite.com, can you describe what will happen on the PC?"
+
+He was excepting a detailed anwer about a network request, showing that you have the knowledge on almost all the OSI layers (DHCP/DORA, DNS cache empty, then DNS request, which can be recursive to the TLD, TCP handshake, TLS ciphers...)
+
+When I forgot things which seems to be important, he was asking questions about a specific step that I did describe. It was a very good question to check that you have the knowledge and the understanding of how it works in real life.
+12
+uk_one
+•
+3mo ago
+
+Ahh, pointless memorisation of stuff the interviewer has to look up and next-to-no-one ever uses in their day-to-day.
+10
+iClexi
+•
+3mo ago
+
+The fact that I can’t answer almost anything of the questions of this post makes me wanna quit…
+7
+
+
+In as little or as much detail as you like, explain what happens when you open a browser and type in www.google.com.
+
+You can tell how detailed and technically accurate a candidate is by how they answer it - do they mention memory on the computer? the browser process? network only? routing? bgp? tcp handshakes? quic? dns over https? firewalls? nat/pat?
+5
+uk_one
+•
+3mo ago
+
+That answer could fill a post-grad Semester.
+8
+FluidFisherman6843
+•
+3mo ago
+
+Years ago I was interviewing with a subsidiary of a health insurance company. During a group interview with what would be my peers, some asked
+
+"Why do you want to work here?" But his inflection made it clear he wasnt asking me to give him some bullshit answer about how much I admired the company and to dazzle him with my research about them.
+
+No, he was clearly asking "why in the fuck would you want to work at this place? Dude don't do it! Find a job somewhere else". I got an offer but luckily got another from the place I ended up working for 10 years.
+ I like to ask would they need to bring a tool or library in a project what do they look for? Have they ever evaluated such a choice? This question usually becomes a mini discussion.
+
+Topics I look for, but not limited:
+
+    open va closed source (paid)
+
+    generic vs specialized
+
+    popularity
+
+    documentation
+
+    integration with other workflows
+
+    learning curve and getting started
+
+    etc.
+
+I feel this question can give me a sense of the experience, critical thinking, accountability and personality of a person 
+
+One that hit me as unique recently is “what are you currently doing to secure your home network?”
+2
+u/No_Opinion9882 avatar
+No_Opinion9882
+•
+3mo ago
+
+What is my favourite show,, Yeah.. also caught me offguard. though didnt get the position
+1
+bigbyte_es
+•
+3mo ago
+
+I use to ask “Is Splunk a SIEM?” for interviews for L1 Soc analysts
+1
+ReadGroundbreaking17
+•
+3mo ago
+
+I was asked how I'd go about evaluating two security vendors. It stumped me a bit as at the time I wasn't used to thinking about feasibility/viability/price/scalability etc perspectives.
+
+My responsive was some generic garbage like "I'd compare which had the best security and then recommend the one I thought was best.
+
+
+This is non cybersecurity related, but came very early in my career. I was working help desk, and applying for a different help desk position.
+
+"How would you explain to someone over the phone how to tie their shoe? Assume no visual aids."
+1
+u/Sad_Pirate_4546 avatar
+Sad_Pirate_4546
+•
+3mo ago
+
+"Tell me how you navigate disagreement with your boss and coworkers. Give an example of how you overcame these roadblocks." (I reported to an IT Director/CIO and was the company leader for information security and compliance)
+
+It gave me a chance to really explain cross-functional solutions, being business-minded and showing them I didn't want to he a roadblock or someone that just checked boxes.
+1
+ One time I was asked "what was my favourite malware?" and I had to say, "Am I dreaming rn?". My fave interview question of all time, just because i love the topic.
+
+i got the job, but the place was all kinds of crap so I didn't stay...but great interview question. 

@@ -1,0 +1,269 @@
+ Adobe SWE Intern Interview Process 2026 — team-specific or generic + resume deep dive + prep tips?
+
+Hi everyone,
+
+I’m interviewing for the Adobe Software Engineer Intern (Summer 2026) role next week (virtual interview week Thu 1/22 – Mon 1/26) after passing the HackerRank. I had a few doubts about the interview process and would really appreciate if someone who has interviewed this year (2026 cycle) can clarify.
+1) Team-specific interview or generic → team matching pool?
+
+Until last year (from what I know), Adobe did a generic technical interview first, and after clearing that, candidates were moved into a team matching pool.
+
+But I’ve heard it might have changed this time, where the interview could be taken by a specific team engineer from the start.
+
+If anyone interviewed this cycle:
+
+    Was your interview generic or team-specific?
+
+    Did you do team matching later, or did you know the team before/after interview?
+
+2) How deep is the resume deep dive usually?
+
+The email says remaining time includes questions around technical experiences, projects, skill sets, and interests.
+
+I’m more nervous about this part than DSA 😅
+
+    Is the resume deep dive very detailed?
+
+    Should I revise every bullet/project thoroughly?
+
+    can anyone share an example of:
+
+        what resume questions they asked
+
+        what follow-ups they asked
+
+Example format would help a lot, like:
+3) Technical interview tips, what should I focus on in last 2–3 days?
+
+The email says:
+
+    rest is experience/resume + Q&A
+
+I have 2–3 days left and this is basically my first real SWE interview.
+
+What should I prioritize most?
+
+    strings/arrays/hashmaps patterns?
+
+    common LC patterns?
+
+    speed + correctness?
+
+    communicating approach?
+
+4) Should I expect behavioural questions too?
+
+They called it a technical interview and didn’t explicitly mention behavioural, but I’m wondering:
+
+    Should I prep behavioural like:
+
+        “Tell me about yourself”
+
+        “Why Adobe”
+
+        teamwork/conflict
+
+        leadership/failure/challenge
+
+Or is it mostly technical + project discussion?
+
+I’m honestly more worried about behavioural + resume deep dive than I am about the DSA question 😬
+
+Thanks a lot in advance!
+
+PS: I see a lot of people reacting to this post, and the interviews are starting from 22nd Jan. Maybe once done with the interview, people can share their interview experiences here. It can be a simple comment stating
+
+    The topics, type and difficulty of the coding problem asked, describe it in as much detail as comfortable
+
+    How much time was given to solving the problem, and how much to the resume deep dive?
+
+    Overall interview experience.
+
+
+
+When did you get sent the hackerrank?
+1
+u/prathamshah10 avatar
+prathamshah10
+OP •
+5mo ago
+
+7th jan
+1
+u/Gullible_Desk3708 avatar
+Gullible_Desk3708
+•
+5mo ago
+
+hey! when is your candidate kickoff meeting scheduled?
+1
+u/prathamshah10 avatar
+prathamshah10
+OP •
+5mo ago
+
+21st jan
+1
+Independent_Bug_3353
+•
+5mo ago
+
+did anyone get a call for final round?
+3
+u/Present_Junket_2521 avatar
+Present_Junket_2521
+•
+5mo ago
+
+Waiting for mail.......
+2
+u/Present_Junket_2521 avatar
+Present_Junket_2521
+•
+5mo ago
+
+Did anyone give their 1st interview today? It would be really helpful if you can share your exp and how hard/easy the coding question was
+2
+u/RINVOQ_upadacitinib avatar u/RINVOQ_upadacitinib
+•
+Promoted
+Get in the game—see the results for RINVOQ® (upadacitinib).
+Learn More
+rinvoq.com
+
+Click here to see Prescribing Info, BOXED WARNING & Med Guide.
+Clickable image which will reveal the video player: Get in the game—see the results for RINVOQ® (upadacitinib).
+0:00 / 0:00
+Successful-Cup-3650
+•
+5mo ago
+
+Has anyone progressed to final round? and what can we expect from final round?
+Will there be any technical questions? and what kinda behavioural questions can I expect?
+
+PS: Just wanted to know
+2
+9MrJoeBob0
+•
+5mo ago
+• Edited 5mo ago
+
+i got an offer in december. for me, both rounds were generic engineers I believe, but during my offer call, my recruiter told me he had already found a team for me, so I’m not sure how team matching works exactly. could be based on preferences form or just managers picking resumes they like.
+
+i don’t think resume went too deep based on their questions, and it was mostly generic behavioural questions. however this could also be because i already went into a lot of detail myself whenever i mentioned things i did during past projects or internships as examples. honestly, the most important part is probably just to make interviewers like you.
+
+programming question in technical interview was probably slightly harder side of leetcode easy. i think explaining your approach is always useful. also in my case it seemed like the interviewer liked talking to me about both my past experience and my questions about his work more, and we only spent like the last 10 minutes on the programming question as more of like a formality.
+1
+u/jojo-manoj avatar
+jojo-manoj
+•
+5mo ago
+
+After how many days did you receive an invite to the last round after the technical round? And were both interviewers in the last round SWEs or HRs?
+2
+u/Popular-Mode4607 avatar
+Popular-Mode4607
+•
+5mo ago
+
+What location is this?
+1
+u/Either-Tough-8893 avatar
+Either-Tough-8893
+•
+5mo ago
+
+how many days after the technical interview should we expect to hear back?
+1
+[deleted]
+•
+5mo ago
+
+did u get final round
+1
+Crispyfries2020
+•
+4mo ago
+
+Have final arounds of adobe starting from monday-thursday. Is it fine to take thursday? Or it's too late and I should reschedule to wed?
+1
+Telzy
+•
+4mo ago
+
+when did you get the invite?
+1
+u/Depend_Brand avatar u/Depend_Brand
+•
+Promoted
+Effortless All-Day Wear
+Shop Now
+ad.doubleclick.net
+Thumbnail image: Effortless All-Day Wear
+u/Present_Junket_2521 avatar
+Present_Junket_2521
+•
+4mo ago
+
+GUYS!!
+I have final round interview scheduled on Wednesday , I got a mail today saying "We’re fortunate to have received a lot of interest in this role, resulting in a very competitive selection process and unfortunately, at this time we have decided not to move forward with your application." ?
+And on the portal also now its showing "Process Completed" and moved from Active to Inactive?
+
+What does this mean? I have my interview meeting scheduled on Wednesday, but this mail is scaring me?
+
+Did anyone else get this?
+1
+Telzy
+•
+4mo ago
+
+are you sure its for the same application?
+1
+Independent_Bug_3353
+•
+4mo ago
+
+Anyone got a reject recently?
+1
+Telzy
+•
+4mo ago
+
+still waiting after my technical interview
+1
+u/Present_Junket_2521 avatar
+Present_Junket_2521
+•
+4mo ago
+
+Did anyone get a response after the final round interview? I believe the final round interviews were from Feb 2 - 5
+1
+u/Gullible_Desk3708 avatar
+Gullible_Desk3708
+•
+4mo ago
+
+Not yet
+1
+Unhappy-Ball2189
+•
+2mo ago
+
+How long do they take to repond
+1
+Unhappy-Ball2189
+•
+2mo ago
+
+Following this — also applied to the Adobe 2026 SWE Intern role and trying to figure out what to expect. For anyone who's already through this cycle: did your recruiter share the team before the technical, or did they keep it generic and only do team-matching after?
+
+Quick context in case anyone wants to swap notes — MS CS @ UMass Amherst (Spring '26 grad), real-time streaming work this sem (Kafka + Spark) + a published DL paper. DMs open either way, happy to trade OA / interview prep notes.
+1
+u/TimelyPassion5133 avatar
+TimelyPassion5133
+•
+5mo ago
+
+That pre-interview worry about forgetting your project details during the resume Q&A is completely understandable, behvioural interviews seem easy but honestly they're so easy to forget. Having concise talking points visible for each resume bullet prevents freezing when they ask unexpected follow-ups. I built InterviewIQ to surface your prepared answers instantly during virtual interviews when questioned about your experience. It keeps your own notes accessible so you stay focused instead of scrambling under pressure.
+
+Good luck!!
+1

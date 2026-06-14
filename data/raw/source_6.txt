@@ -1,0 +1,193 @@
+
+Go to cybersecurity
+r/cybersecurity
+•
+1y ago
+Plus_Afternoon1545
+Soc analyst tier 1 interview
+Career Questions & Discussion
+
+I had an interview as a tier 1 soc analyst and I was really excited about it , it was on site and then I was bombarded by tons of questions back to back such as :
+
+    Active directory breach attacks and mitigations
+
+    Virtualbox , hyper-v , vmware comparison
+
+    WAF, PROXY, IDS/IPS, FIREWALL explanations
+
+    Malware analysis, static vs dynamic analysis
+
+    Siem solutions , splunk and qradar
+
+    My rank in tryhackme and cyberdefenders
+
+The questions: is that normal for a fresh candidate or what because it was tough for me
+
+
+I've done a fair bit of technical interviewing for SOC.
+
+I personally wouldn't ask about specific vendor technologies eg 2 and 5 unless that person's resume listed those tech specifically and I thought it was relevant. That said, I can see an organization that heavily uses a specific type of tech asking about it because having some sort of capacity in it is a requirement.
+
+Also wouldn't ask about their rank on training platforms. It's better to directly assess someone's knowledge.
+
+Asking about types of network devices, attacks in active directory, and malware analysis techniques are all fair game. If you are applying for a SOC job , basically anything pertaining to basic Network infrastructure, attack techniques, and components of the job like log analysis or malware analysis are all fair game.
+112
+[deleted]
+•
+1y ago
+
+Comment deleted by user
+u/contains_multitudes avatar
+contains_multitudes
+•
+1y ago
+
+If you're applying for an internal SOC that uses a specific security tech stack, I can see them asking about whether you have knowledge of the tool. I personally don't find it good or useful to put much weight into someone not knowing about/how to use a specific technology as:
+
+- once you know how to use one instance of a class of tech it's pretty easy to learn others - eg if you know how to use KQL/Microsoft Sentinel you can probably learn how to use QRadar (both are SIEMs)
+
+- on the hierarchy of things that we need to teach new SOC analysts, understanding of attacker techniques and analysis skills are very high whereas understanding how to use a tool is pretty low and trivially learned via the vendor documentation. If someone doesn't know how to use a certain tool during the interview they can probably learn it in 1-3 workdays IMO, at least at a passable level that they can build on. I look for 'is this person teachable / can they self-teach using resources if they don't know this thing'
+
+I think from a hiring manager perspective it's probably not good to disqualify a candidate who excels in the interview but doesn't know a specific tool, I think that's bad hiring personally, at least at the more junior level. To be clear though, entry SOC != entry level, and hiring managers can be picky.
+
+As an aside, QRadar is terrible so maybe you should be glad you missed out.
+19
+Tinyrick88
+•
+1y ago
+• Edited 1y ago
+
+Asking for rank in tryhackme is hilarious ngl. I’ve had 4 Security analyst interviews over the past few months and the interviewers barely even reacted when I mentioned my time spent on tryhackme and letsdefend.
+
+For the rest of your questions; It’s varied for me. Since it’s tier 1/entry level, I’ve both been bombarded with technical questions that required in depth explanations (when would you use Asymmetric over Symmetric encryption? Explain the purpose of a firewall?)
+
+I’ve also been asked to pick an attack and give an explanation of how I would defend against it.
+
+Most recently, I had one where the only “technical” question was “How good at scripting are you?” And the rest of the interview was basically just explaining the role.
+73
+u/Interesting_Page_168 avatar
+Interesting_Page_168
+•
+1y ago
+
+Half of those questions are irrelevant for a L1 SOC Analyst. I can't think of any way why the vmware question would be relevant for the role.
+47
+coomzee
+•
+1y ago
+• Edited 1y ago
+
+I have 5 CVEs, 8 bug bounty with Microsoft, 2 with Google. My try Hack me rank is 1 it's totally meaningless. Some of the write ups on Try Hack me are funny (let's pass untrusted data into eval) and run the script as root.
+
+Do you use Splunk here? Have fun when it spunks the bed.
+27
+[deleted]
+•
+1y ago
+
+Last line is too real.
+3
+Warm_Opinion7396
+•
+1y ago
+
+Can anyone please add the questions which were asked in their interview for the same role for fresher's
+9
+TollboothXL
+•
+1y ago
+
+I was one of the people on a panel for filling a SOC 1 Analyst position at my company recently. This is after they got through the HR interview and the manager interview. So this would be where you're sitting across from the technical panel people. Some of the questions we asked:
+
+    What happens when you open your internet browser and navigate to www.google.com?
+
+    This is an open ended question where we're probing the persons understanding of the HTTP Transaction Process. It's purposefully open ended to gauge how much networking knowledge someone has. We generally will follow up with some general networking questions there.
+
+    What can you tell me about incident response?
+
+    This is an open ended question to see how much they know about incident response frameworks.
+
+    What is a SIEM and how do you leverage it?
+
+    This is an open ended question to see what they know about SIEMs. We generally will have some follow up questions depending on what they say.
+
+    Can you speak about SPF, DKIM, DMARC?
+
+    We purposefully use the acronyms on this one to see if they're familiar with email security. I've seen that newer people generally can speak about some basic concepts on email security, but lack the foundations on it. A specific question I also like to follow up with on this one is if they can tell me how I can view email headers and what information can I get from them.
+
+    Do you know what a BEC (Business Email Compromise) is and how would you respond to this?
+
+    This is another open ended question and depends on the interviewee knowing what BEC is. If they don't, we'll usually guide them to what it is and ask them how they'd respond. This also goes back to to the earlier question about incident response and is seeing if they actually follow through with the framework stuff.
+
+    Have you ever been a part of an investigation of a security incident? If so, what happen and how did you respond?
+
+    Asking if they ever have actually done anything in the field. They'll usually speak about specific tools they utilized here which opens up additional questions.
+
+    What is the difference between symmetric and asymmetric encryption?
+
+    Our security engineer loves asking this question to applicants. This is likely one of the harder questions we ask IMO. As it depends on you knowing what it is and the differences. He'll also follow up by asking for examples of each.
+
+    What is a recent cybersecurity item that's been in the news?
+
+    Gauging how much the person actually reads up on actual cybersecurity threats versus knowing the buzz words. We'll also have some follow ups here asking where they get their news.
+
+We don't expect the person interviewing for the position to be familiar with all the tools we have on hand, so we try to be pretty general in the questions and dig into what the applicant says. We're also asking gauging questions to see what the person knows and what they don't know. It's an intro position so you can't know everything. But you do need to know something!
+19
+Fair-Jacket-4276
+•
+1y ago
+
+All the charade around cyber security acronyms etc is nonsense. Every company is different , you learn on the job and how to use their tools. It’s all about finding threats and weaknesses and taking the appropriate action eg patching , closing ports etc , segmentation, ensuring a defence in depth strategy. Visit cyber-specialists.com, they have interesting articles and educational material to help organisations get their act together.
+5
+thekmanpwnudwn
+•
+1y ago
+
+    What happens when you open your internet browser and navigate to www.google.com?
+
+The real purpose of this question is to see if they can list everything in the OSI model, not just the HTTP Transaction process. HTTP Transaction process only uses a few of the layers (7/4/3/2)
+3
+Tinyrick88
+•
+1y ago
+
+Explain the TCP handshake?
+
+What’s the difference between UDP and TCP?
+
+Where do TCP and UDP fit in the OSI model?
+
+What is port_?
+
+What is the difference between “risk, threat and vulnerability?”
+
+What is the CIA triad?
+
+What is the purpose of a firewall?
+9
+[deleted]
+•
+1y ago
+
+Comment deleted by user
+
+
+This is roughly what I ask.
+
+I also ask them to explain Cyber Kill Chain and Mitre Attack frameworks if they can. If they nail those I'll ask about Pyramid of Pain. These aren't exactly necessary for a T1 if they have a more extensive IT background but I want to gauge how much theory they know.
+
+Because we're in a specific industry, I also like to ask them "Besides phishing, what cyber threats or attacks do you think [company] is often targeted by?". Even if the answer is completely wrong this question is seeing their thought process if they haven't considered it yet, and to see if they can even name other cyber attacks.
+16
+LazerKittenz
+•
+1y ago
+
+Most SOC analyst interviews I’ve done have gone way too technical and expected DFIR mastery in several areas, so yes, it’s typical. It shouldn’t be, but it is.
+
+Add them to the list of questions you shouldn’t be expected to answer, but will have to study anyways because they can’t be bothered to assess your skills in a way that isn’t just a game of “stump the chump”.
+5
+7yr4nT
+•
+1y ago
+
+Expect a mix of technical, theoretical, and practical questions. Review security fundamentals, familiarize yourself with common security tools, and practice explaining complex concepts simply. Don't be afraid to ask for clarification or admit what you don't know. Show enthusiasm and a willingness to learn.

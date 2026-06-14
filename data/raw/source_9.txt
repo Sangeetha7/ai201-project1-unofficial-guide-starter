@@ -1,0 +1,279 @@
+
+Go to cybersecurity
+r/cybersecurity
+•
+6mo ago
+Kiss-cyber
+What technical questions do you use when interviewing cybersecurity engineers?
+Business Security Questions & Discussion
+
+When I run technical interviews I usually start with a case study rather than a list of questions. The idea is to see how candidates think when you take them slightly outside their comfort zone. (For example, with a GRC profile I will use a cloud migration case to test how they reason about controls they do not deal with every day.)
+
+After that, I widen the scope with small questions across different areas (EDR, MFA, firewalls, incident response, OSI, “what happens when you type google.com”, NIST CSF, CMMC…).
+
+I am not looking for perfect answers, just how they connect concepts and how they explain their reasoning. I am curious how other teams structure this. What questions do you find most useful? What are you assessing? What are your best questions?
+ Interviews aren't a college exam. If you look at a resume and decide to interview someone. You ask them questions from it and find ways to tie them to the position.
+
+Remember, there's always someone out there that can make you look stupid with the right questions. And that doesn't accomplish anything. 
+u/The_Security_Ninja avatar
+The_Security_Ninja
+•
+6mo ago
+
+I usually ask conceptual questions about how they approach problems and ask them to give me examples of challenges they have faced in the past. I work in IAM, so I might ask about problems they’ve seen with user onboarding, password resets, do they know what the term ITDR means. Do they think MFA should be applied everywhere all the time (see if they mention MFA fatigue on their own), etc.
+
+I hate the quiz approach. I just try to get a conversation going and evaluate their knowledge and experience, with personality fit also being a large part of it since they’re joining a team.
+
+After that I usually ask about experience with certain tools that our company uses and ask some questions about work hours and PTO expectations to make sure there are no surprises.
+
+In my experience, having done this quite often, I can tell if someone is a good fit after a 30 minute call. Rarely has it required more than that.
+105
+Share
+
+    Do they think MFA should be applied everywhere all the time
+
+I really like this question. Now I want to go on interviews and hope someone asks this.
+25
+Calm_Ad4077
+•
+6mo ago
+
+I’m not a hiring manager but I get to interview my teammates before they are hired. I stick to their own resume! If they claim to be a Crowdstrike administrator we dive into that, etc. If they don’t know, that’s fine, how would they find an answer? How would they approach a new tool they know nothing about? Things like that along with behavioral type questions. I don’t want an asshole working with me.
+
+I hope more people answer!
+30
+u/hudsoncress avatar
+hudsoncress
+•
+6mo ago
+
+I ask progressively harder and more niche questions until they admit they don’t have a fucking clue, then welcome them aboard. If the candidate starts bullshitting and can’t admit s/he doesn’t know something, I have no time for them.
+29
+u/Evilbit77 avatar
+Evilbit77
+•
+6mo ago
+
+“I don’t know” is one of the best answers you can give in an interview.
+
+Bonus points for “here’s what I do know about the topic”, “here’s how I would approach finding out”, or “this is my guess, and here’s why”.
+14
+
+
+I have two questions that I always ask. The first the answer matters less than how they support their answer.
+
+"With the CIA triangle, which of confidentiality, integrity, and availability is the most important in our part of health care and why. You have to pick only one"
+
+I want to see their through process and it's created some great arguments outside of interviews.
+
+The second question I ask is often based on resume or something big in the news lately.
+
+"Take this critical vulnerability that just made the news. I want your explanation to several different audiences.
+
+How would you explain it to:
+A peer in cybersecurity?
+Someone from IT without a security background?
+Someone from the business?
+An executive?
+Then the most important, my mom is closer to 80 than 70 and let's say is very challenged with computers. How do you explain this to her?
+
+Both are more focused on how they think if they can understand how to communicate with others.
+13
+u/TechGjod avatar
+TechGjod
+•
+6mo ago
+
+“Tell me the difference between a Router, Switch, Access Point, and firewall”
+24
+jason_abacabb
+•
+6mo ago
+
+Theyarethesamepicture.meme
+
+But seriously, how in depth do you want that answer? I could give you the easy textbook answer from 2005 in two minutes or go on for 10 minutes talking about the overlap and complexity in modern equipment.
+
+
+I always ask them to tell me about their home infrastructure. Its a fun question and im easy to interview with lol I want to hear some passionate responses! It opens them up to being comfortable, then BAM, thats when you obfuscate to see how quickly they can change topics and sensitivity levels under stress.
+23
+Apart-Internal3695
+•
+6mo ago
+
+“I have a router. next question”
+43
+u/ageoffri avatar
+ageoffri
+•
+6mo ago
+
+I've learned that most people don't have anything like a home lab or a cloud lab. I've had a handful of people over the last 25 years have something but the vast majority don't.
+
+Though I still do ask the question.
+19
+MimimalZucchini
+•
+6mo ago
+
+Frankly, I'm mostly not the hiring manager, but might interview and give my opinion. And it's almost always ... What kind of team player are they? Are they a fit for the org? Cyber security is a team sport. So I try to filter for assholes.
+7
+Derpolium
+•
+6mo ago
+
+Depends on the role. For GRC or other interpretation heavy jobs I go with common hypothetical scenarios for the environment and focus heavy on their follow up questions and thought process like weak/strong criteria for not implementing MFA.For technical roles like network engineers its more along the lines of implementation like tell me what to do with my flat /16 with 25% saturation. Its less about specific answers for me and more about if they can explain their process and it seems more reasonable than smoking crack with Diddy.
+6
+
+
+I mostly have a conversation with them.
+
+Can't stand the checklist approach.
+
+I want to find out what they know, if they specialize in something, do they have a wide base of knowledge (doesn't have to be deep), how do they approach solving a problem they don't know the answer to, and what makes them interested in security.
+
+Everyone is stressed in an interview but it tends to relax people when you talk to them rather than rattle off questions from a list.
+
+It's easy to catch a bullshitter or AI cheater with this because they can't hold a conversation, but will give you a smoothly delivered mini speech on the topic before failing a simple followup question.
+6
+Jean_Paul_Fartre_
+•
+6mo ago
+
+Indica or Sativa?
+5
+u/pearlkele avatar
+pearlkele
+•
+6mo ago
+
+I ask what they have done, and go from there. I am aware that they might not know everything (nor I know everything) so I try to see how deep they can go.
+
+If they mention TLS I will ask how it works, what it do, how keys are exchanged, how to check if the ciphersuites are weak etc. If they mention a tool I will ask how they use it, what they can configure or check with it.
+
+Some stuff might even not be purely security related, but I might want to know what is DHCP and how it works. And if person don't know the answer I will ask, how he would implement it himself to see how he think.
+
+I might add also a few more basic questions like XSS or linux permissions.
+
+
+Open ended questions to describe their thought process on accomplishments they list on their resume. You say you did it, explain to me what, how and why.
+
+You can figure someone out when they talk about something they are supposed to know a lot about rather than asking them questions to see if they know what you know.
+4
+ThePorko
+•
+6mo ago
+Profile Badge for the Achievement Top 1% Commenter Top 1% Commenter
+
+I really look for how they tell the story and how they describe the details.
+4
+stupid_human
+•
+6mo ago
+
+What is your technical origin story? Follow up, How did that experience shape your perspective on your approach to cybersecurity?
+
+The quiz approach is beat to death in the technical industry. Technical questions are important but hitting someone with a quiz type tough question before giving them time to get comfortable is setting yourself and your candidate up for a negative outcome. People are typically a little nervous in interviews. Give them a chance to lighten up in the first 10 minutes and it will lead to much better outcomes in the long run.
+
+Throw a few softball questions to let the candidate build some confidence and you'll be shocked what you'll learn. For instance,after 3 questions that are "easy" I've seen the shitty side of people come out real quick. It's always easy to spot that guy in the room that starts talking down to people and belittling them when they start perceiving themselves to be just a little smarter. I would rather spend a little time training someone lacking a few technical skills, than dealing with some asshat that nobody can or is willing to work with.
+
+Ask open ended scenario questions that build upon themselves. Eventually you'll be done with the interview, everyone will be relaxed, and you'll learn more than you can imagine about the person and their skills.
+
+
+I’d recommend building one’s own questions based on what you know. That way you’ll be able to better assess the difference between someone who doesn’t understand and someone who’s just answering differently than you expected.
+3
+u/Odd-Savage avatar
+Odd-Savage
+•
+6mo ago
+
+I try to make mine unfair. I’ll normally start by presenting code for an intentionally vulnerable web application and have them talk through each vulnerability and its mitigation.
+
+I’ll also talk through crazy scenarios. My favorite is “You have discovered a vulnerability that triggers remote code execution on the entire fleet production server. Tell me how you’d architect a system that could tolerate 100,000 simultaneous C2 callbacks”
+
+To wrap up we’d discuss a threat model against a product. My favorite is an autonomous vending machine that automatically bills customers the moment they pick the product up. It tells me that they are capable of determining security requirements in extremely ambiguous situations.
+3
+u/neoslashnet avatar
+neoslashnet
+•
+6mo ago
+
+This is all really great to hear. I feel like the quiz style question banks are going out of style which is a good thing.
+
+My org does two rounds and we keep it to one hour each. The my are more like 45 mins each because the last bit is for them to ask us questions. One is focused on the technical aspects of the job and the other is more of a culture fit. Both have general questions that are scenario based and ask how they deal with stakeholders, etc. we try to avoid trick questions.
+3
+
+
+I’ve had way better signal treating interviews like a mini engagement instead of a trivia quiz. I usually start with one messy, realistic scenario and let them drive: “You’ve just joined a mid-size SaaS halfway through a chaotic AWS migration: flat VPC with any-any SGs, EDR is everywhere but super noisy, there’ve been a couple of phishing incidents that led to dodgy OAuth grants, no one really owns security. Over the next 6–12 months, what do you do, what do you need to know, and how do you sell your plan to the business?” From that alone you see if they ask clarifying questions, build a rough threat model in their head, prioritize by risk instead of shiny tools, and think in terms of sequencing and trade-offs. Then I poke specific areas with short follow-ups: IR (“You get an EDR alert for credential theft on a prod box, walk me from triage → containment → recovery”), identity (“SSO exists but MFA is patchy and there’s legacy stuff, how do you tighten it without destroying UX?”), network (“You inherit flat / any-any rules, what’s week-one change vs three-month segmentation?”), fundamentals and communication (“Explain TLS or ‘what happens when someone runs a phishing doc that drops a RAT’ to a smart non-security person”). I tell candidates up front I’m not grading them on perfect recall; I care about how they reason under uncertainty, how they connect layers (network, identity, endpoint, logging), and whether they can talk like a grown-up engineer who understands risk and the business, not just recite ports and acronyms.
+3
+u/Mysterious-Print9737 avatar
+Mysterious-Print9737
+•
+6mo ago
+
+I think a good one for a GRC profile is a scenario where a business unit is secretly using a new, unsanctioned SaaS app that holds sensitive PII. The best question isn't gonna be "how do you block it" it's gonna be "how do you risk-rank, control, and ultimately govern it" using frameworks like NIST CSF or CMMC. This forces candidates to think about business risk and third-party management intead of technical controls.
+
+
+"Walk me through the toughest security incident you dealt with" and then dig in with smaller questions about the story as they tell it
+4
+cant_pass_CAPTCHA
+•
+6mo ago
+
+"I'd love to. However, getting into all the juicy details you actually want to hear about would break the confidentiality of my previous employer."
+6
+evilncarnate82
+•
+6mo ago
+
+My non tech questions were always "how do you stay up to date with what's going on in the tech space" and "outside of work what do you like to do for fun, what are you passionate about". Those give me tons of insight into the person.
+
+Technical evaluation is usually handled by their peers that reported to me. I had 1 principle that joined most interviews and then I'd pull a specific skilled engineer from the area they would work in. Ask questions related to the space, the tooling, etc. generally throw some situational solving questions.
+1
+u/ASlutdragon avatar
+ASlutdragon
+•
+6mo ago
+
+I keep it casual and ask what they are currently working on. I ask about their stack and what they like and dislike. I ask about what they want to learn and what they wish they could implement. I throw in some technical follow-ups but honestly you can tell pretty quick how technical someone is. If your interviewing to join a team then fit is going to be more important to me than our technical knowledge. I’ll ask about their latest or worst fuck up. Or latest/favorite ahh ah! Moment.
+
+The best question for me usually ends up being “what are you working on at home”. If they don’t even have a homelab or something similar then that isn’t the person for me. I want someone that sides this shit for fun in their spare time.
+
+
+I like to do scenario based questions to see how they approach generic issues after basic questions. Most of the time though the candidate can’t even explain dns :/ or basic questions and then absolutely bomb the scenario ones.
+1
+iboreddd
+•
+6mo ago
+
+Asking some real world technical problems based on their background and the job he/she applied and observing their approach (that's more important than the answer itself)
+1
+u/xyvo avatar
+xyvo
+•
+6mo ago
+
+I think asking what they'd change about Cybersecurity if they could is good, if people can soapbox about something they probably have at least some interest in it.
+1
+u/UncannyPoint avatar
+UncannyPoint
+•
+6mo ago
+
+The only technical question I was asked was whether I had ever worked with a SIEM. My manager believes training is there to provide people the knowledge on tools that the business uses.
+
+95% of my interview was how I facilitate change in a complex environment.
+
+
+I don't usually ask structured, technical questions.
+
+I try to let interviews be open ended conversations where they talk about their experience and then drill on that experience to gauge the technical capabilities of how they solved the problems they've had. The more they can volunteer without prompting, the more that shows they're not bluffing about it.
+
+They will face new problems in our org, and they will need to learn new skills on the way. Show me you can do that.
+1
+u/nemsoli avatar
+nemsoli
+•
+6mo ago
+
+I’m an endpoint engineer. I ask how they would transfer a file to a user’s computer for troubleshooting purposes. How that do that simple task tells me a lot.

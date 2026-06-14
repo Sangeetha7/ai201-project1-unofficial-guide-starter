@@ -1,0 +1,92 @@
+ Google Software Engineering Intern, MS, Summer 2026 Interview
+Company Question
+
+Hi guys,
+
+I had given OA on 17th September, Recruiter reached out to me on 18th September. Then I had scheduled interviews on 15th October.
+One technical round was done on 15th, but no interviewer should up in 2nd technical round. so the recruiter scheduled second interview on 21st Oct. It’s been 5 days since second interview.
+
+1st round : a variation of number of provinces leetcode question which can be solved using bfs/dfs
+
+2nd round : given an array of queues where pop() is a very expensive operation find the shortest queue
+
+How long should I wait for to get call for my third interview?
+
+Update: Oct 27, I got rejection
+12
+
+DesignerIron2009
+•
+8mo ago
+
+Why third interview, i thought you only have 2 technical interview.
+4
+Jedrodo
+•
+8mo ago
+
+If one of your interviews didn’t go that well, they might give you a third interview as a tie breaker round
+7
+Little_Rub_9992
+•
+8mo ago
+
+Wait 5 days, but did one of your interviews not go well?
+1
+u/Sad-Purpose2708 avatar
+Sad-Purpose2708
+•
+8mo ago
+
+Does the second round question have a trick answer?
+1
+u/lusipar avatar
+lusipar
+•
+8mo ago
+
+Hey let me know if you are able.to solve it
+1
+u/Sad-Purpose2708 avatar
+Sad-Purpose2708
+•
+8mo ago
+
+Query size() in O(1)
+1
+u/Sad-Purpose2708 avatar
+Sad-Purpose2708
+•
+8mo ago
+
+Op is the second question accurate?
+1
+u/Official_ATTFiber avatar u/Official_ATTFiber
+•
+Promoted
+Enjoy hyper-fast speeds with America's fastest internet.
+Learn More
+att.com
+Clickable image which will reveal the video player: Enjoy hyper-fast speeds with America's fastest internet.
+0:00 / 0:00
+u/Vijay_10 avatar
+Vijay_10
+•
+8mo ago
+
+Could you please share your resume ?
+1
+u/Small_Win_2596 avatar
+Small_Win_2596
+•
+8mo ago
+
+How do you solve the second one?
+1
+u/Sufficient-Dog5423 avatar
+Sufficient-Dog5423
+•
+7mo ago
+
+was it for BS or MS?
+1
