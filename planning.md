@@ -43,11 +43,11 @@ This Unofficial Guide aggregates real student experiences, application timelines
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:** ~500 characters. 
 
-**Overlap:**
+**Overlap:** ~100 characters. This guarantees that explicit keywords (like "Google" or "Cybersecurity Engineer") remain attached to the neighboring sentences.
 
-**Reasoning:**
+**Reasoning:** 500 chunk size is large enough to capture an entire interview phase or a multi-sentence technical explanation without bleeding into completely separate comment threads. 100 characters of overlap guarantees that explicit keywords (like "Google" or "Cybersecurity Engineer") remain attached to the neighboring sentences.
 
 ---
 
@@ -59,11 +59,11 @@ This Unofficial Guide aggregates real student experiences, application timelines
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:**  all-MiniLM-L6-v2 via sentence-transformers. It maps text to a 384-dimensional vector space, optimized for semantic sentence similarity while remaining fast and lightweight
 
-**Top-k:**
+**Top-k:** k = 4. Retrieving 4 chunks balances comprehensive coverage without overloading the prompt or introducing off-topic noise.
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** In a production system, I would trade this local model for a commercial option (like text-embedding-3-small or a domain-specific Cohere model). This switch would increase the context window capacity, handle complex engineering terminology with greater accuracy, and offer native multilingual support for non-English student posts, though it introduces network API latency and ongoing API costs.
 
 ---
 
@@ -76,11 +76,11 @@ This Unofficial Guide aggregates real student experiences, application timelines
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What is the reported application timeline for the Amazon SDE Intern position for Summer 2026? | Applied in August/September, completed Online Assessment (OA) within days, final interviews wrapped up by October/November. |
+| 2 | What specific technical topics or coding questions were asked during the Google SWE Intern interview? | LRU cache implementation and graph/shortest-path matrix problems. |
+| 3 | What are the core technical concepts a candidate must study for a SOC Analyst Tier 1 interview? | OSI model layers, common ports (e.g., 80, 443, 22), the difference between TCP and UDP, and basic phishing indicator triage. |
+| 4 | How does Adobe structure its SWE internship interview process? | An initial resume screen, an online technical assessment, followed by consecutive rounds of technical and architectural live interviews.|
+| 5 | What scenario-based questions are commonly used to evaluate junior cybersecurity entry-level applicants?| Responding to a hypothetical alert showing a high volume of outbound traffic over an unusual port, or handling an employee clicking a suspected phishing link.|
 
 ---
 
@@ -90,9 +90,9 @@ This Unofficial Guide aggregates real student experiences, application timelines
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Social media data is heavily fragmented. If a chunk contains the sentence "The technical round was brutal, they asked two graph questions," but the company name or role title was only mentioned 1,000 characters earlier in the post, the retrieved chunk will be completely contextless.
 
-2.
+2. Interview styles change drastically by year. A chunk discussing a 2023 interview process might contradict a 2026 timeline. The retrieval system must avoid mixing obsolete processes with current ones unless explicitly requested.
 
 ---
 
@@ -104,6 +104,15 @@ This Unofficial Guide aggregates real student experiences, application timelines
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
+[Document Ingestion]      --> Read local markdown or raw text scraped from your 10 URLs
+         ↓
+ [Text Chunking]          --> Fixed Character Splitter (Size: 500, Overlap: 100) using LangChain
+         ↓
+[Vector Database]         --> Embed chunks via 'all-MiniLM-L6-v2' -> Store in ChromaDB
+         ↓
+ [Query Retrieval]        --> Vector semantic similarity search fetches top k=4 chunks
+         ↓
+ [LLM Generation]         --> Context chunks + System Grounding Prompt fed to LLM -> Final Response
 ---
 
 ## AI Tool Plan
@@ -118,8 +127,8 @@ This Unofficial Guide aggregates real student experiences, application timelines
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
-**Milestone 3 — Ingestion and chunking:**
+**Milestone 3 — Ingestion and chunking:** I will feed my Chunking Strategy section to the AI tool and request a Python script utilizing langchain.text_splitter.CharacterTextSplitter. I will verify that the final chunk count is accurate and inspect boundaries manually to ensure sentences are not cut in half arbitrarily
 
-**Milestone 4 — Embedding and retrieval:**
+**Milestone 4 — Embedding and retrieval:** I will provide the Retrieval Approach section to the AI to construct the ChromaDB collection integration using sentence-transformers. I will verify the output by printing the similarity scores of the top-4 chunks for Test Question #3.
 
-**Milestone 5 — Generation and interface:**
+**Milestone 5 — Generation and interface:** I will provide my complete Anticipated Challenges and Evaluation Plan to the AI to write the final inference loop, enforcing strict system prompts that prevent hallucination outside the retrieved text.
