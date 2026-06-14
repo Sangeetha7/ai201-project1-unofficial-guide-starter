@@ -11,6 +11,9 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
+This Unofficial Guide aggregates real student experiences, application timelines, and specific technical questions for entry-level Software Engineering and Cybersecurity internships. This knowledge is traditionally hard to find because it is scattered across transient social media threads and forums, making it difficult for students to accurately gauge how long a company's hiring process takes or what specific concepts to study for the technical rounds.
+
+
 ---
 
 ## Documents
@@ -20,16 +23,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Reddit (r/csMajors) | Amazon SDE Intern Summer 2026 Application Timeline | https://www.reddit.com/r/csMajors/comments/1sybrw8/amazon_sde_intern_summer_2026_timeline_applied_in/ |
+| 2 | Reddit (r/csMajors) | Google SWE Intern Application Timeline | https://www.reddit.com/r/csMajors/comments/1r0oqwb/google_swe_intern_application_timeline/ |
+| 3 | Reddit (r/csMajors) | Google Software Engineering Intern Technical Interview | https://www.reddit.com/r/csMajors/comments/1ogk7mg/google_software_engineering_intern_ms_summer_2026/ |
+| 4 | Reddit (r/csMajors) | Adobe SWE Intern Interview Process 2026 | https://www.reddit.com/r/csMajors/comments/1qi8txr/adobe_swe_intern_interview_process_2026/ |
+| 5 | Reddit (r/csMajors) | Timeline for HPE SWE Intern 2026 | https://www.reddit.com/r/csMajors/comments/1s2rl7u/timeline_for_hpe_swe_intern_2026/ |
+| 6 | Reddit (r/cybersecurity) | SOC Analyst Tier 1 Interview Experience & Questions | https://www.reddit.com/r/cybersecurity/comments/1jbui2y/soc_analyst_tier_1_interview/ |
+| 7 | Reddit (r/cybersecurity) | Best Cybersecurity Interview Questions Thread | https://www.reddit.com/r/cybersecurity/comments/1ro0c6l/what_were_some_of_the_best_interview_questions/ |
+| 8 | Reddit (r/cybersecurity) | Junior Cyber Security Analyst Interview Breakdown | https://www.reddit.com/r/cybersecurity/comments/14yj019/junior_cyber_security_analyst_interview/ |
+| 9 | Reddit (r/cybersecurity) | Technical Questions for Cybersecurity Engineers | https://www.reddit.com/r/cybersecurity/comments/1pilmec/what_technical_questions_do_you_use_when/ |
+| 10 | Reddit (r/cybersecurity) | Open-Ended and Scenario-Based Interview Questions | https://www.reddit.com/r/cybersecurity/comments/1554itn/what_are_some_openended_scenariobased_interview/ |
 
 ---
 

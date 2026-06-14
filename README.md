@@ -16,6 +16,9 @@
 
 ---
 
+This Unofficial Guide aggregates real student experiences, application timelines, and specific technical questions for entry-level Software Engineering and Cybersecurity internships. This knowledge is traditionally hard to find because it is scattered across transient social media threads and forums, making it difficult for students to accurately gauge how long a company's hiring process takes or what specific concepts to study for the technical rounds.
+
+
 ## Document Sources
 
 <!-- List every source you collected documents from.
