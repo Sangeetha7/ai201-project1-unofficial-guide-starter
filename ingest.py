@@ -44,7 +44,7 @@ def clean_reddit_text(text):
     
     return text.strip()
 
-def chunk_text(doc, chunk_size=500, overlap=100):
+def chunk_text(doc, chunk_size=700, overlap=150):
     """Splits text into chunks of specified character length with an overlap window."""
     text = doc["text"]
     source = doc["source"]
